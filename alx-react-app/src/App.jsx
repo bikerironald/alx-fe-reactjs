@@ -6,10 +6,10 @@ import './App.css'
 import Header from './components/Header';
 import MainContent from './components/MainContent';
 import Footer from './components/Footer';
+import UserProfile from './components/UserProfile';
 
 
 function App() {
-  // const [count, setCount] = useState(0)
 
   return (
     <>
@@ -25,8 +25,12 @@ function App() {
       <Header />
       <MainContent />
       <Footer />
-      {/* <h1>Hello Kenya</h1>
-      <h2>React, TailwindCSS</h2> */}
+      <UserProfile 
+        name="Bikeri" 
+        age="24" 
+        bio="Loves hiking and photography" 
+      />
+      <Footer />
     </>
   )
 }
