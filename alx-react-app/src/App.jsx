@@ -1,4 +1,5 @@
 // import { useState } from 'react'
+import WelcomeMessage from './components/WelcomeMessage'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
@@ -16,7 +17,7 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      
+      <WelcomeMessage />
       <h1>Hello Kenya</h1>
       <h2>React, TailwindCSS</h2>
     </>
